@@ -53,82 +53,82 @@ function Dashboard() {
         <tr>
           <th><i className=" fa-thin fa-stop"></i></th>
           <th style={{color:"blue"}}>#AHGA68</th>
-          <th className='text-gray-800'>23/09/2022</th>
-          <th className='text-gray-800'>Jacob Marcus</th>
-          <th  className='text-gray-800'>$100</th>
-          <th  className='text-gray-800'>$00</th>
+          <th className='text-muted'>23/09/2022</th>
+          <th className='text-muted'>Jacob Marcus</th>
+          <th  className='text-muted'>$100</th>
+          <th  className='text-muted'>$00</th>
           
         </tr>
         <tr>
           <th><i className=" fa-thin fa-stop"></i></th>
           <th style={{color:"blue"}}>#AHGA68</th>
-          <th  className='text-gray-800'>23/09/2022</th>
-          <th  className='text-gray-800'>Jacob Marcus</th>
-          <th  className='text-gray-800'>$100</th>
-          <th  className='text-gray-800'>$00</th>
+          <th  className='text-muted'>23/09/2022</th>
+          <th  className='text-muted'>Jacob Marcus</th>
+          <th  className='text-muted'>$100</th>
+          <th  className='text-muted'>$00</th>
           
         </tr>
         <tr>
           <th><i className=" fa-thin fa-stop"></i></th>
           <th style={{color:"blue"}}>#AHGA68</th>
-          <th  className='text-gray-800'>23/09/2022</th>
-          <th  className='text-gray-800'>Jacob Marcus</th>
-          <th  className='text-gray-800'>$100</th>
-          <th  className='text-gray-800'>$00</th>
+          <th  className='text-muted'>23/09/2022</th>
+          <th  className='text-muted'>Jacob Marcus</th>
+          <th  className='text-muted'>$100</th>
+          <th  className='text-muted'>$00</th>
           
         </tr>
         <tr>
           <th><i className=" fa-thin fa-stop"></i></th>
           <th style={{color:"blue"}}>#AHGA68</th>
-          <th  className='text-gray-800'>23/09/2022</th>
-          <th  className='text-gray-800'>Jacob Marcus</th>
-          <th  className='text-gray-800'>$100</th>
-          <th  className='text-gray-800'>$00</th>
+          <th  className='text-muted'>23/09/2022</th>
+          <th  className='text-muted'>Jacob Marcus</th>
+          <th  className='text-muted'>$100</th>
+          <th  className='text-muted'>$00</th>
           
         </tr>
         <tr>
           <th><i className=" fa-thin fa-stop"></i></th>
           <th style={{color:"blue"}}>#AHGA68</th>
-          <th  className='text-gray-800'>23/09/2022</th>
-          <th  className='text-gray-800'>Jacob Marcus</th>
-          <th  className='text-gray-800'>$100</th>
-          <th  className='text-gray-800'>$00</th>
+          <th  className='text-muted'>23/09/2022</th>
+          <th  className='text-muted'>Jacob Marcus</th>
+          <th  className='text-muted'>$100</th>
+          <th  className='text-muted'>$00</th>
           
         </tr>
         <tr>
           <th><i className=" fa-thin fa-stop"></i></th>
           <th style={{color:"blue"}}>#AHGA68</th>
-          <th  className='text-gray-800'>23/09/2022</th>
-          <th  className='text-gray-800'>Jacob Marcus</th>
-          <th  className='text-gray-800'>$100</th>
-          <th  className='text-gray-800'>$00</th>
+          <th  className='text-muted'>23/09/2022</th>
+          <th  className='text-muted'>Jacob Marcus</th>
+          <th  className='text-muted'>$100</th>
+          <th  className='text-muted'>$00</th>
           
         </tr>
         <tr>
           <th><i className=" fa-thin fa-stop"></i></th>
           <th style={{color:"blue"}}>#AHGA68</th>
-          <th  className='text-gray-800'>23/09/2022</th>
-          <th  className='text-gray-800'>Jacob Marcus</th>
-          <th  className='text-gray-800'>$100</th>
-          <th  className='text-gray-800'>$00</th>
+          <th  className='text-muted'>23/09/2022</th>
+          <th  className='text-muted'>Jacob Marcus</th>
+          <th  className='text-muted'>$100</th>
+          <th  className='text-muted'>$00</th>
           
         </tr>
         <tr>
           <th><i className=" fa-thin fa-stop"></i></th>
           <th style={{color:"blue"}}>#AHGA68</th>
-          <th  className='text-gray-800'>23/09/2022</th>
-          <th  className='text-gray-800'>Jacob Marcus</th>
-          <th  className='text-gray-800'>$100</th>
-          <th  className='text-gray-800'>$00</th>
+          <th  className='text-muted'>23/09/2022</th>
+          <th  className='text-muted'>Jacob Marcus</th>
+          <th  className='text-muted'>$100</th>
+          <th  className='text-muted'>$00</th>
           
         </tr>
         <tr>
           <th><i className=" fa-thin fa-stop"></i></th>
           <th style={{color:"blue"}}>#AHGA68</th>
-          <th  className='text-gray-800'>23/09/2022</th>
-          <th  className='text-gray-800'>Jacob Marcus</th>
-          <th  className='text-gray-800'>$100</th>
-          <th  className='text-gray-800'>$00</th>
+          <th  className='text-muted'>23/09/2022</th>
+          <th  className='text-muted'>Jacob Marcus</th>
+          <th  className='text-muted'>$100</th>
+          <th  className='text-muted'>$00</th>
           
         </tr>
       </tbody>
