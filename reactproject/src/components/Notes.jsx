@@ -106,4 +106,3 @@ function NotesDisplay() {
   </>
 }
 
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error quisquam itaque ea soluta? Non quis ex sint animi unde tempore obcaecati, soluta hic vero culpa incidunt quod ea quia.</p>
