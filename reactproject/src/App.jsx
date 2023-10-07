@@ -1,13 +1,15 @@
 import Sidebar from "./components/Sidebar"
-import Dashboard from "./components/Dashboard"
+import Notes from "./components/Notes"
+import context from "react-bootstrap/esm/AccordionContext"
 
 function App() {
 
   return <>
     <div id='wrapper'>
         <Sidebar/>
-        <Dashboard/>
-       
+        <div id="context-wrapper" className="d-flex flex-columum p-2 bg-gray-200 width:100vh" style={{background:"blue-500"}}>
+       <Notes/>
+       </div>
     </div>
   </>
 }
