@@ -26,7 +26,7 @@ function NotesInput (){
   let [discription,setDiscription] = useState("")
     let {data,setData} = useContext(NotesContext)
   return <>
-  <div className='bg-light  mx-8 mt-3 mb-2 static-top shadow py-5 px-3 border-radius:4px'>
+  <div className='bg-light  mx-8 mt-3 mb-2 static-top shadow py-2 px-3 border-radius:4px'>
   <Form onSubmit={(e)=>{
     e.preventDefault()
     let newArray= [...data]
@@ -54,14 +54,14 @@ function NotesDisplay() {
   return<>
   <div className='container-fluid p-2'>
   <h3>My Notes</h3>
-  <p>Recently Viewed</p>
+  <p> Recently Viewed</p>
   </div>
   <div className='bg-blue  mx-9 mt-3 mb-2  shadow py-2 px-3' style={{display:"flex"}}>
     <div className='mx-2 mt-2 mb-2 shadow py-2 border-radius:4px'>
   <Card style={{ width: '18rem' }}>
       <Card.Body>
-        <Card.Title>FeedBacks</Card.Title>
-        
+        <Card.Title>FeedBacks  <i className="fa-solid fa-pen p-3" style={{color: "#19191a;"}}></i><i className="fa-solid fa-trash-can" style={{color: "#111212;"}}></i></Card.Title>
+       
         <Card.Text>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error quisquam itaque ea soluta? Non quis ex sint animi unde tempore obcaecati, soluta hic vero culpa incidunt quod ea quia.
         </Card.Text>
@@ -73,7 +73,7 @@ function NotesDisplay() {
   <div className='mx-2 mt-2 mb-2 shadow py-2 border-radius:8px'>
   <Card style={{ width: '18rem' }}>
       <Card.Body>
-        <Card.Title>Weekly Task</Card.Title>
+        <Card.Title>Weekly Task <i className="fa-solid fa-pen p-3" style={{color: "#19191a;"}}></i><i className="fa-solid fa-trash-can" style={{color: "#111212;"}}></i></Card.Title>
        
         <Card.Text>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error quisquam itaque ea soluta? Non quis ex sint animi unde tempore obcaecati, soluta hic vero culpa incidunt quod ea quia.
@@ -85,7 +85,7 @@ function NotesDisplay() {
     <div className='mx-2 mt-2 mb-2 shadow py-2'>
     <Card style={{ width: '18rem' }}>
       <Card.Body>
-        <Card.Title>Lyrics</Card.Title>
+        <Card.Title>Lyrics<i className="fa-solid fa-pen p-3" style={{color: "#19191a;"}}></i><i className="fa-solid fa-trash-can" style={{color: "#111212;"}}></i></Card.Title>
         
         <Card.Text>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error quisquam itaque ea soluta? Non quis ex sint animi unde tempore obcaecati, soluta hic vero culpa incidunt quod ea quia.
@@ -94,12 +94,17 @@ function NotesDisplay() {
       </Card.Body>
     </Card>
     </div>
+    
     {
     data.map((e,i)=>{
+      
       return <div  key = {i}>
+        
         <h1>{e.task}</h1>
         <p>{e.discription}</p>
+       
         </div>
+       
     })
    }
   </div>
