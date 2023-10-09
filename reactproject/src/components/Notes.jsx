@@ -3,6 +3,7 @@ import React, { useContext, useState} from 'react'
 import { Form}from 'react-bootstrap'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Title from './Title';
 
 
 
@@ -26,7 +27,7 @@ function NotesInput (){
   let [discription,setDiscription] = useState("")
     let {data,setData} = useContext(NotesContext)
   return <>
-  <div className='bg-light  mx-8 mt-3 mb-2 static-top shadow py-2 px-3 border-radius:4px'>
+  <div className='bg-light Form  mx-8 mt-3 mb-2 static-top shadow py-2 px-3 '>
   <Form onSubmit={(e)=>{
     e.preventDefault()
     let newArray= [...data]
@@ -51,18 +52,22 @@ function NotesInput (){
 
 function NotesDisplay() {
   let {data,setData} = useContext(NotesContext)
+  let datas = [{
+     title:"",
+     discription:"",
+  }]
   return<>
   <div className='container-fluid p-2'>
   <h3>My Notes</h3>
   <p> Recently Viewed</p>
   </div>
-  <div className='bg-blue  mx-9 mt-3 mb-2  shadow py-2 px-3' style={{display:"flex"}}>
-    <div className='mx-2 mt-2 mb-2 shadow py-2 border-radius:4px'>
+  <div className='bg-blue  mx-9 mt-1 mb-2  shadow py-2 px-3 ' style={{display:"flex"}}>
+    <div className='mx-2 mt-1 mb-2 shadow py-2 border-radius:4px'>
   <Card style={{ width: '18rem' }}>
       <Card.Body>
         <Card.Title>FeedBacks  <i className="fa-solid fa-pen p-3" style={{color: "#19191a;"}}></i><i className="fa-solid fa-trash-can" style={{color: "#111212;"}}></i></Card.Title>
        
-        <Card.Text>
+        <Card.Text className='page'>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error quisquam itaque ea soluta? Non quis ex sint animi unde tempore obcaecati, soluta hic vero culpa incidunt quod ea quia.
         </Card.Text>
        <p> 5 days ago</p>
@@ -93,14 +98,16 @@ function NotesDisplay() {
        <p>3 weeks ago</p>
       </Card.Body>
     </Card>
+   
     </div>
+   
     
     {
     data.map((e,i)=>{
       
       return <div  key = {i}>
         
-        <h1>{e.task}</h1>
+        <h1>{e.task }</h1>
         <p>{e.discription}</p>
        
         </div>

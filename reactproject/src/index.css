@@ -11,6 +11,13 @@
 
  .nav-items{
     border-radius: 10px;
-    background-color:#403256;;
+    background-color:#403256;
     color:white
+ }
+ .Form{
+   border-radius: 20px;
+   
+ }
+ .page{
+   align-self: start;
  }
